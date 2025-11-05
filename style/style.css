@@ -4,3 +4,56 @@
   font-weight: 400;
   font-style: normal;
 }
+/* hero */
+#span{
+    color: #363958;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design for mobail */
+@media screen and (max-width:576px) {
+    /* hero */
+    #header{
+        height: auto;
+    }
+    #hero-container{
+        flex-direction: column-reverse;
+    }
+    #bebas-neue-regular{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #hero-dspt{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    #hero-btn{
+        font-size: 20px;
+    }
+    #center{
+        text-align: center;
+    }
+    #hero-img{
+        width: 100%;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+    #nav-meno{
+        flex-direction: column;
+        display: none;
+    }
+    
+}
