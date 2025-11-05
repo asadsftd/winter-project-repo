@@ -9,6 +9,10 @@
     color: #363958;
 }
 
+/* jAKET */
+body{
+    cursor: pointer;
+}
 
 
 
@@ -25,6 +29,7 @@
     /* hero */
     #header{
         height: auto;
+        padding-bottom: 40px;
     }
     #hero-container{
         flex-direction: column-reverse;
@@ -55,5 +60,17 @@
         flex-direction: column;
         display: none;
     }
-    
+    /* main */
+    #main{
+        width: 90%;
+        margin: auto;
+    }
+    /* jaket */
+    #jaket-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #jaket-title{
+        text-align: center;
+        font-size: 25px;
+    }
 }
