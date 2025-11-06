@@ -80,4 +80,20 @@ body{
     #perfect-img{
         margin-top: 40px;
     }
+    #flex{
+        flex-direction: column;
+    }
+    #img{
+        margin: auto;
+        width: 80px;
+    }
+    #h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    #p{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
 }
