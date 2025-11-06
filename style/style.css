@@ -73,4 +73,11 @@ body{
         text-align: center;
         font-size: 25px;
     }
+    /* perfect */
+    #container{
+        flex-direction: column;
+    }
+    #perfect-img{
+        margin-top: 40px;
+    }
 }
